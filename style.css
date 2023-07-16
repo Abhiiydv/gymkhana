@@ -1,0 +1,137 @@
+body {
+  padding: 0;
+  margin: 0;
+  background-image: url(images/adult-gaa1c16a72_1920.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white;
+
+  background-position: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.left {
+  display: inline-block;
+  position: absolute;
+  top: 20px;
+  left: 30px;
+}
+.left img {
+  width: 115px;
+  height: 40px;
+  border-radius: 10%;
+  filter: invert(0%);
+}
+.left div {
+  position: relative;
+  text-align: center;
+  top: -20px;
+  line-height: 20px;
+  font-size: 12px;
+  letter-spacing: 2px;
+}
+.mid {
+  width: 40%;
+  display: block;
+  margin: 20px auto;
+}
+.right {
+  display: inline-block;
+  position: absolute;
+  top: 20px;
+  right: 30px;
+}
+.btn {
+  margin: 12px 12px;
+  background-color: transparent;
+  color: white;
+  padding: 4px 15px;
+  border: 2px solid grey;
+  font-size: 14px;
+  cursor: pointer;
+  border-radius: 4px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.btn:hover {
+  background-color: rgb(64, 59, 59);
+}
+.navbar {
+  display: inline-block;
+}
+.navbar li {
+  display: inline-block;
+  font-size: 14px;
+}
+.navbar li a {
+  text-decoration: none;
+  color: white;
+  padding: 15px 20px;
+}
+.navbar li a:hover,
+.navbar li a.active {
+  color: rgb(201, 209, 160);
+}
+
+/* out of header */
+
+.container {
+  width: 30%;
+  padding: 50px;
+  margin-top: 100px;
+  margin-left: 990px;
+}
+.container h1 {
+  text-align: center;
+}
+
+.form-group input {
+  text-align: center;
+  display: block;
+  width: 64%;
+  padding: 6px;
+  margin: 10px auto;
+  border: 2px solid black;
+  font-weight: 700;
+}
+.container button {
+  width: 100px;
+  margin: 25px auto;
+  display: block;
+}
+.reviews{
+ 
+  width: 80%;
+  height: 400px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 100px;
+
+
+}
+.review{
+  max-width: 70%;
+  margin: auto;
+  border: 2px solid white;
+  margin-top: 20px;
+  padding: 15px;
+  text-align: center;
+
+}
+#review1 img{
+  float:left;
+  width: 80px;
+  height: 80px;
+  border-radius:50% ;
+}
+#review2 img{
+  float:right;
+  width: 80px;
+  height: 80px;
+  border-radius:50% ;
+}
+
+#review3 img{
+  float:left;
+  width: 80px;
+  height: 80px;
+  border-radius:50% ;
+}
